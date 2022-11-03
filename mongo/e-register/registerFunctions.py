@@ -1,6 +1,6 @@
 #import the necessary modules
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://agee:freeman@cluster0.garywk6.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://<username>:<password>@cluster0.garywk6.mongodb.net/?retryWrites=true&w=majority")
 db = client.db_git
 teachers = db.teachers
 students = db.students
