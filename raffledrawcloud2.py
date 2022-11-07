@@ -9,7 +9,7 @@ import pywebio
 app = Flask(__name__)
 
 
-@ app.route('/')
+
 def raffledraw():
     try:
         put_scope("mainframe").style("background: linear-gradient(to right, #536976, #292e49);border-radius:8px;opacity:0.6;") #this serves as app background
